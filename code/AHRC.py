@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.sparse as sp
-import os, sys, argparse
+import os, argparse
 from sknetwork.clustering import Louvain
 from sknetwork.linalg import normalize
 from data import data
@@ -12,37 +12,18 @@ from metrics import clustering_metrics
 import time, tracemalloc
 import sparcifier
 
-import psutil, resource, gc
+import psutil
 
 datasets = []
-# datasets.append("coci_patent_C13")
-# datasets.append("coci_wiki")
 datasets.append("coau_cora")
 datasets.append("coci_cora")
 datasets.append("coci_citeseer")
-# datasets.append("20news")
-# datasets.append("coci_pubmed")
-# datasets.append("coau_dblp")
-# datasets.append("NTU2012")
-# datasets.append("magpm")
 
 p = argparse.ArgumentParser(description='Set parameter')
 p.add_argument('--dataset', type=str, default=None, help='dataset name (e.g.: cora/dblp for coauthorship, cora/citeseer for cocitation)')
-p.add_argument('--tmax', type=int, default=200, help='t_max parameter')
-p.add_argument('--seeds', type=int, default=0, help='seed for randomness')
 p.add_argument('--alpha', type=float, default=0.2, help='mhc parameter')
-p.add_argument('--beta', type=float, default=0.5, help='weight of knn random walk')
-p.add_argument('--metric', type=bool, default=False, help='calculate additional metrics: modularity')
-p.add_argument('--weighted_p', type=int, default=0, help='use transition matrix p weighted by attribute similarity')
-p.add_argument('--verbose', action='store_true', help='print verbose logs')
-p.add_argument('--scale', action='store_true', help='use configurations for large-scale data')
-p.add_argument('--interval', type=int, default=5, help='interval between cluster predictions during orthogonal iterations')
 p.add_argument('--knn_k', type=int, default=10, help='None')
-p.add_argument('--w_topo', type=int, default=1, help='None')
-p.add_argument('--w_attr', type=int, default=1, help='None')
-p.add_argument('--isAND', type=int, default=1, help='None')
 p.add_argument('--seed', type=int, default=0)
-
 p.add_argument('--tau', type=int, default=3, help='None')
 p.add_argument('--sparcify', type=str, default="symmetric_tree")
 p.add_argument('--gamma', type=int, default=2)
@@ -74,9 +55,6 @@ def run(dataset, tau):
     config.dataset = dataset
     config.alpha = args.alpha
     config.knn_k = args.knn_k
-    config.w_topo = args.w_topo
-    config.w_attr = args.w_attr
-    config.isAND = args.isAND
 
     if config.knn_k == -1:
         config.knn_k = dataset['n'] - 1

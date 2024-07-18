@@ -1,8 +1,6 @@
 import numpy as np
 from sklearn import metrics
 import config
-import os
-import inspect
 
 class clustering_metrics():
     def __init__(self, true_label, predict_label):
