@@ -1,0 +1,363 @@
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.02;nmi:0.24:0.02;ari:0.10:0.02;f1:0.30:0.01;jcc:0.18:0.01;balri:0.56:0.01;pur:0.46:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.17:0.02;f1:0.34:0.01;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.17:0.03;f1:0.34:0.02;jcc:0.20:0.02;balri:0.59:0.02;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.17:0.03;f1:0.33:0.02;jcc:0.20:0.02;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.23:0.02;nmi:0.23:0.02;ari:0.15:0.03;f1:0.32:0.03;jcc:0.19:0.02;balri:0.58:0.02;pur:0.47:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.19:0.02;nmi:0.19:0.02;ari:0.12:0.02;f1:0.29:0.01;jcc:0.17:0.01;balri:0.56:0.01;pur:0.45:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.09:0.01;f1:0.26:0.01;jcc:0.15:0.01;balri:0.54:0.00;pur:0.40:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.02:0.00;nmi:0.02:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.02:0.00;nmi:0.02:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.12:0.02;f1:0.31:0.01;jcc:0.18:0.01;balri:0.57:0.01;pur:0.47:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.16:0.02;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.02;nmi:0.25:0.02;ari:0.16:0.02;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.02;nmi:0.26:0.02;ari:0.17:0.02;f1:0.34:0.02;jcc:0.20:0.01;balri:0.59:0.01;pur:0.49:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.58:0.01;pur:0.49:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.02;nmi:0.20:0.02;ari:0.12:0.02;f1:0.29:0.01;jcc:0.17:0.01;balri:0.56:0.01;pur:0.44:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.16:0.02;nmi:0.16:0.02;ari:0.09:0.02;f1:0.26:0.02;jcc:0.15:0.01;balri:0.55:0.01;pur:0.41:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.02:0.00;nmi:0.02:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.1, 'drop_edge_rate_2': 0.1, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.14:0.02;f1:0.32:0.01;jcc:0.19:0.01;balri:0.58:0.01;pur:0.47:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.02;nmi:0.26:0.02;ari:0.16:0.01;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.16:0.01;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.02;nmi:0.26:0.02;ari:0.18:0.03;f1:0.34:0.02;jcc:0.21:0.01;balri:0.60:0.01;pur:0.50:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.58:0.01;pur:0.49:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.02;nmi:0.20:0.02;ari:0.13:0.02;f1:0.29:0.01;jcc:0.17:0.01;balri:0.57:0.01;pur:0.45:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.16:0.02;nmi:0.16:0.02;ari:0.10:0.02;f1:0.27:0.02;jcc:0.15:0.01;balri:0.55:0.01;pur:0.42:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.02:0.00;nmi:0.02:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.2, 'drop_edge_rate_2': 0.2, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.49:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.18:0.02;f1:0.34:0.02;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.02;nmi:0.26:0.02;ari:0.17:0.01;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.02;nmi:0.26:0.02;ari:0.18:0.03;f1:0.34:0.02;jcc:0.21:0.02;balri:0.60:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.58:0.00;pur:0.49:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.02;nmi:0.20:0.02;ari:0.12:0.02;f1:0.29:0.01;jcc:0.17:0.01;balri:0.56:0.01;pur:0.45:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.17:0.03;nmi:0.17:0.03;ari:0.10:0.03;f1:0.27:0.02;jcc:0.15:0.02;balri:0.55:0.01;pur:0.42:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.02:0.00;nmi:0.02:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.3, 'drop_edge_rate_2': 0.3, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.49:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.18:0.02;f1:0.35:0.02;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.34:0.01;jcc:0.20:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.18:0.02;f1:0.34:0.01;jcc:0.20:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.00;nmi:0.25:0.00;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.00;balri:0.59:0.00;pur:0.49:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.21:0.02;nmi:0.21:0.02;ari:0.13:0.02;f1:0.30:0.01;jcc:0.17:0.01;balri:0.57:0.01;pur:0.46:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.18:0.02;nmi:0.18:0.02;ari:0.10:0.02;f1:0.27:0.01;jcc:0.16:0.01;balri:0.55:0.01;pur:0.43:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.02:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.4, 'drop_edge_rate_2': 0.4, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.49:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.00;nmi:0.26:0.00;ari:0.18:0.01;f1:0.34:0.01;jcc:0.20:0.01;balri:0.59:0.00;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.34:0.01;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.02;nmi:0.25:0.02;ari:0.18:0.03;f1:0.33:0.02;jcc:0.20:0.01;balri:0.59:0.01;pur:0.50:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.00;balri:0.59:0.00;pur:0.49:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.21:0.02;nmi:0.21:0.02;ari:0.13:0.02;f1:0.29:0.01;jcc:0.17:0.01;balri:0.57:0.01;pur:0.45:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.19:0.02;nmi:0.19:0.02;ari:0.12:0.02;f1:0.28:0.02;jcc:0.16:0.01;balri:0.56:0.01;pur:0.45:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.04:0.00;nmi:0.04:0.00;ari:0.02:0.00;f1:0.21:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.5, 'drop_edge_rate_2': 0.5, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.19:0.01;f1:0.35:0.02;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.18:0.01;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.00;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.19:0.02;f1:0.35:0.02;jcc:0.21:0.01;balri:0.60:0.01;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.17:0.01;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.00;pur:0.50:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.22:0.01;nmi:0.22:0.01;ari:0.14:0.01;f1:0.30:0.00;jcc:0.18:0.00;balri:0.57:0.00;pur:0.47:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.02;nmi:0.20:0.02;ari:0.12:0.02;f1:0.28:0.01;jcc:0.17:0.01;balri:0.56:0.01;pur:0.46:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.05:0.01;nmi:0.05:0.01;ari:0.02:0.00;f1:0.21:0.00;jcc:0.12:0.00;balri:0.51:0.00;pur:0.34:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.6, 'drop_edge_rate_2': 0.6, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.01;nmi:0.24:0.01;ari:0.16:0.01;f1:0.32:0.01;jcc:0.19:0.00;balri:0.58:0.00;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.20:0.03;f1:0.35:0.03;jcc:0.22:0.02;balri:0.61:0.02;pur:0.52:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.00;nmi:0.26:0.00;ari:0.19:0.00;f1:0.34:0.01;jcc:0.20:0.00;balri:0.60:0.00;pur:0.53:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.33:0.00;jcc:0.20:0.00;balri:0.59:0.00;pur:0.52:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.17:0.01;f1:0.32:0.01;jcc:0.19:0.00;balri:0.59:0.00;pur:0.51:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.23:0.01;nmi:0.23:0.01;ari:0.15:0.01;f1:0.31:0.01;jcc:0.18:0.00;balri:0.58:0.00;pur:0.50:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.21:0.03;nmi:0.21:0.03;ari:0.13:0.03;f1:0.29:0.02;jcc:0.17:0.01;balri:0.57:0.01;pur:0.47:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.11:0.03;nmi:0.11:0.03;ari:0.05:0.03;f1:0.23:0.02;jcc:0.13:0.01;balri:0.53:0.01;pur:0.37:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.04:0.00;nmi:0.04:0.00;ari:0.02:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.33:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.03:0.00;nmi:0.03:0.00;ari:0.01:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.32:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.7, 'drop_edge_rate_2': 0.7, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.18:0.02;f1:0.33:0.01;jcc:0.20:0.01;balri:0.59:0.01;pur:0.53:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.20:0.01;f1:0.35:0.01;jcc:0.21:0.01;balri:0.60:0.01;pur:0.53:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.00;nmi:0.26:0.00;ari:0.19:0.01;f1:0.34:0.00;jcc:0.20:0.00;balri:0.60:0.00;pur:0.52:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.33:0.00;jcc:0.20:0.00;balri:0.59:0.00;pur:0.52:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.33:0.01;jcc:0.20:0.00;balri:0.59:0.00;pur:0.53:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.17:0.01;f1:0.32:0.00;jcc:0.19:0.00;balri:0.59:0.00;pur:0.52:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.23:0.00;nmi:0.23:0.00;ari:0.14:0.01;f1:0.30:0.01;jcc:0.18:0.01;balri:0.57:0.00;pur:0.49:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.16:0.02;nmi:0.16:0.02;ari:0.09:0.02;f1:0.26:0.01;jcc:0.15:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.05:0.00;nmi:0.05:0.00;ari:0.02:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.34:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.04:0.00;nmi:0.04:0.00;ari:0.01:0.00;f1:0.21:0.00;jcc:0.12:0.00;balri:0.51:0.00;pur:0.33:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.8, 'drop_edge_rate_2': 0.8, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.17:0.02;f1:0.33:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.54:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.19:0.00;f1:0.34:0.00;jcc:0.20:0.00;balri:0.60:0.00;pur:0.55:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.19:0.01;f1:0.34:0.01;jcc:0.20:0.00;balri:0.60:0.00;pur:0.54:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.19:0.02;f1:0.34:0.01;jcc:0.20:0.01;balri:0.59:0.00;pur:0.54:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.00;nmi:0.27:0.00;ari:0.20:0.01;f1:0.34:0.00;jcc:0.21:0.00;balri:0.60:0.00;pur:0.56:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.19:0.00;f1:0.34:0.00;jcc:0.20:0.00;balri:0.60:0.00;pur:0.55:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.18:0.01;f1:0.33:0.00;jcc:0.19:0.00;balri:0.59:0.00;pur:0.54:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.02;nmi:0.20:0.02;ari:0.12:0.03;f1:0.28:0.02;jcc:0.16:0.01;balri:0.56:0.01;pur:0.46:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.10:0.01;nmi:0.10:0.01;ari:0.04:0.01;f1:0.22:0.00;jcc:0.13:0.00;balri:0.52:0.01;pur:0.37:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.05:0.00;nmi:0.05:0.00;ari:0.02:0.00;f1:0.20:0.00;jcc:0.11:0.00;balri:0.51:0.00;pur:0.33:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.9, 'drop_edge_rate_2': 0.9, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.08:0.02;nmi:0.08:0.02;ari:0.03:0.02;f1:0.22:0.01;jcc:0.13:0.01;balri:0.52:0.01;pur:0.37:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.1, 'drop_feature_rate_2': 0.1, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.00;nmi:0.14:0.00;ari:0.07:0.01;f1:0.26:0.00;jcc:0.15:0.00;balri:0.54:0.00;pur:0.42:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.2, 'drop_feature_rate_2': 0.2, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.20:0.03;nmi:0.20:0.03;ari:0.14:0.03;f1:0.30:0.02;jcc:0.18:0.02;balri:0.57:0.02;pur:0.49:0.04;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.3, 'drop_feature_rate_2': 0.3, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.22:0.02;nmi:0.22:0.02;ari:0.16:0.02;f1:0.31:0.01;jcc:0.19:0.01;balri:0.58:0.01;pur:0.51:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.4, 'drop_feature_rate_2': 0.4, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.23:0.02;nmi:0.23:0.02;ari:0.16:0.03;f1:0.32:0.01;jcc:0.19:0.01;balri:0.58:0.01;pur:0.52:0.03;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.5, 'drop_feature_rate_2': 0.5, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.24:0.02;nmi:0.24:0.02;ari:0.18:0.02;f1:0.33:0.01;jcc:0.19:0.01;balri:0.59:0.01;pur:0.53:0.02;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.6, 'drop_feature_rate_2': 0.6, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.01;nmi:0.25:0.01;ari:0.19:0.00;f1:0.33:0.00;jcc:0.20:0.00;balri:0.59:0.00;pur:0.55:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.7, 'drop_feature_rate_2': 0.7, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.25:0.00;nmi:0.25:0.00;ari:0.20:0.00;f1:0.34:0.00;jcc:0.20:0.00;balri:0.60:0.00;pur:0.55:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.8, 'drop_feature_rate_2': 0.8, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.00;nmi:0.26:0.00;ari:0.19:0.00;f1:0.33:0.00;jcc:0.20:0.00;balri:0.59:0.00;pur:0.55:0.00;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.9, 'drop_feature_rate_2': 0.9, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.27:0.01;nmi:0.27:0.01;ari:0.22:0.01;f1:0.35:0.01;jcc:0.21:0.01;balri:0.61:0.01;pur:0.53:0.01;
+coci_cora;N/A
+{'learning_rate': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 1.0, 'drop_feature_rate_2': 1.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.07:0.02;f1:0.25:0.01;jcc:0.14:0.01;balri:0.54:0.01;pur:0.40:0.02;

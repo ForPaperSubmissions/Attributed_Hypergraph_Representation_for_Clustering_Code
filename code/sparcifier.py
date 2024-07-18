@@ -1,10 +1,8 @@
 import numpy as np
-import time
-from scipy.sparse import coo_matrix, csgraph, csr_matrix
+from scipy.sparse import csr_matrix
 from sknetwork.utils.format import directed2undirected
 import scipy.sparse as sp
 from spanning_tree import spanning_tree2
-# from spanning_tree_0 import spanning_tree2
 
 def check_symmetric(A, rtol=1e-08, atol=1e-08):
     AT = A.T

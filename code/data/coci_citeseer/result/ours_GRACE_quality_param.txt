@@ -1,0 +1,135 @@
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 0.0625, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.52:0.00;pur:0.36:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 0.125, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.03;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 0.25, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 0.5, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.02;nmi:0.13:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.15:0.00;balri:0.52:0.01;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 1.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 2.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.00;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 4.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.00;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 8.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.01;nmi:0.12:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.00;pur:0.33:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.0, 'drop_dyadic_rate_2': 0.0, 'w_d': 16.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.01;nmi:0.12:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.33:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 0.0625, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 0.125, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.02;nmi:0.15:0.02;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 0.25, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 0.5, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 1.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.04:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.53:0.01;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 2.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 4.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 8.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.03;nmi:0.13:0.03;ari:0.04:0.01;f1:0.27:0.01;jcc:0.16:0.01;balri:0.53:0.01;pur:0.34:0.03;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.2, 'drop_dyadic_rate_2': 0.2, 'w_d': 16.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.02;nmi:0.15:0.02;ari:0.04:0.01;f1:0.28:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 0.0625, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 0.125, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.04:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.53:0.01;pur:0.36:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 0.25, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.02;nmi:0.13:0.02;ari:0.03:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.01;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 0.5, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.52:0.01;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 1.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.03:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.01;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 2.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.02;nmi:0.12:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.15:0.00;balri:0.52:0.01;pur:0.33:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 4.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.00;pur:0.34:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 8.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.02;nmi:0.12:0.02;ari:0.03:0.01;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.33:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.4, 'drop_dyadic_rate_2': 0.4, 'w_d': 16.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.02;nmi:0.13:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.52:0.01;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 0.0625, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.01;nmi:0.14:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.36:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 0.125, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.04:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.53:0.01;pur:0.36:0.03;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 0.25, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.53:0.01;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 0.5, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.03;nmi:0.13:0.03;ari:0.03:0.01;f1:0.27:0.01;jcc:0.15:0.01;balri:0.52:0.01;pur:0.34:0.03;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 1.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.52:0.00;pur:0.34:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 2.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.33:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 4.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.11:0.02;nmi:0.11:0.02;ari:0.02:0.01;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.32:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 8.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.01;nmi:0.12:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.32:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.6, 'drop_dyadic_rate_2': 0.6, 'w_d': 16.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.12:0.01;nmi:0.12:0.01;ari:0.02:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.32:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 0.0625, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.03:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.52:0.01;pur:0.35:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 0.125, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.04:0.00;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.37:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 0.25, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.16:0.02;nmi:0.16:0.02;ari:0.04:0.01;f1:0.27:0.00;jcc:0.16:0.00;balri:0.53:0.00;pur:0.37:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 0.5, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.15:0.01;nmi:0.15:0.01;ari:0.04:0.01;f1:0.27:0.01;jcc:0.16:0.00;balri:0.53:0.01;pur:0.36:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 1.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.14:0.02;nmi:0.14:0.02;ari:0.03:0.01;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.01;pur:0.34:0.03;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 2.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.01;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.34:0.02;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 4.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.34:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 8.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.34:0.01;
+coci_citeseer;
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'prelu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 0.0, 'drop_edge_rate_2': 0.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'drop_dyadic_rate_1': 0.8, 'drop_dyadic_rate_2': 0.8, 'w_d': 16.0, 'tau': 0.9, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.13:0.01;nmi:0.13:0.01;ari:0.03:0.00;f1:0.27:0.00;jcc:0.15:0.00;balri:0.52:0.00;pur:0.33:0.01;

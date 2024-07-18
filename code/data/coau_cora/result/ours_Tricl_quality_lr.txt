@@ -1,0 +1,18 @@
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 1e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:75.87:1.04;nmi:0.38:0.01;ari:0.32:0.02;f1:0.43:0.02;jcc:0.27:0.01;balri:0.65:0.01;pur:0.61:0.02;
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:79.15:0.95;nmi:0.42:0.01;ari:0.36:0.02;f1:0.47:0.02;jcc:0.31:0.02;balri:0.67:0.01;pur:0.64:0.02;
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0001, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:79.76:0.90;nmi:0.46:0.03;ari:0.42:0.05;f1:0.52:0.04;jcc:0.35:0.04;balri:0.70:0.02;pur:0.66:0.03;
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:80.17:1.08;nmi:0.42:0.03;ari:0.33:0.07;f1:0.46:0.06;jcc:0.30:0.05;balri:0.67:0.04;pur:0.62:0.04;
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.001, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:78.40:1.24;nmi:0.38:0.01;ari:0.24:0.03;f1:0.42:0.03;jcc:0.26:0.02;balri:0.66:0.03;pur:0.59:0.02;
+coau_cora;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.3, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 2.0, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
+acc:74.06:1.60;nmi:0.24:0.03;ari:0.09:0.04;f1:0.33:0.03;jcc:0.20:0.02;balri:0.58:0.04;pur:0.45:0.03;

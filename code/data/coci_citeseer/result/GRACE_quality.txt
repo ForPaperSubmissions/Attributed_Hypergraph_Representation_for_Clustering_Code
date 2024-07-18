@@ -1,0 +1,18 @@
+coci_citeseer;N/A
+{'learning_rate': 1e-05, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.05:0.00;nmi:0.05:0.00;ari:0.02:0.00;f1:0.21:0.00;jcc:0.12:0.00;balri:0.51:0.00;pur:0.28:0.00;
+coci_citeseer;N/A
+{'learning_rate': 5e-05, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.05:0.01;nmi:0.05:0.01;ari:0.02:0.00;f1:0.21:0.00;jcc:0.12:0.00;balri:0.51:0.00;pur:0.29:0.01;
+coci_citeseer;N/A
+{'learning_rate': 0.0001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.07:0.03;nmi:0.07:0.03;ari:0.04:0.02;f1:0.22:0.02;jcc:0.13:0.01;balri:0.52:0.01;pur:0.31:0.03;
+coci_citeseer;N/A
+{'learning_rate': 0.0005, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.17:0.02;nmi:0.17:0.02;ari:0.11:0.01;f1:0.28:0.01;jcc:0.16:0.01;balri:0.56:0.00;pur:0.42:0.02;
+coci_citeseer;N/A
+{'learning_rate': 0.001, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.01;nmi:0.26:0.01;ari:0.20:0.01;f1:0.35:0.01;jcc:0.21:0.01;balri:0.60:0.01;pur:0.52:0.02;
+coci_citeseer;N/A
+{'learning_rate': 0.005, 'num_hidden': 256, 'num_proj_hidden': 256, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'drop_edge_rate_1': 1.0, 'drop_edge_rate_2': 1.0, 'drop_feature_rate_1': 0.0, 'drop_feature_rate_2': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.10:0.04;nmi:0.10:0.04;ari:0.03:0.02;f1:0.31:0.01;jcc:0.18:0.00;balri:0.53:0.02;pur:0.29:0.04;

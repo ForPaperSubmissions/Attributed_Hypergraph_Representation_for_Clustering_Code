@@ -1,0 +1,138 @@
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.97:0.69;nmi:0.39:0.01;ari:0.40:0.01;f1:0.51:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.0625, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.07:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.125, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.12:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.25, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.19:0.74;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.5, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.28:0.70;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.38:0.72;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 2.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.41:0.74;nmi:0.38:0.00;ari:0.39:0.01;f1:0.49:0.01;jcc:0.33:0.00;balri:0.69:0.00;pur:0.67:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 4.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.29:0.70;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 8.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.05:0.73;nmi:0.38:0.01;ari:0.38:0.01;f1:0.49:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.1, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 16.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:67.66:0.76;nmi:0.37:0.01;ari:0.38:0.01;f1:0.49:0.01;jcc:0.32:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.0625, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.07:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.125, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.13:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.25, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.21:0.74;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.5, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.31:0.70;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.44:0.72;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 2.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.52:0.74;nmi:0.38:0.00;ari:0.39:0.01;f1:0.50:0.00;jcc:0.33:0.00;balri:0.69:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 4.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.41:0.67;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 8.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.17:0.71;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.3, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 16.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:67.81:0.73;nmi:0.38:0.00;ari:0.38:0.01;f1:0.49:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.0625, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.08:0.78;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.125, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.14:0.78;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.25, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.23:0.74;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.5, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.34:0.73;nmi:0.39:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.53:0.71;nmi:0.39:0.01;ari:0.40:0.01;f1:0.50:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 2.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.63:0.73;nmi:0.39:0.00;ari:0.40:0.01;f1:0.50:0.00;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 4.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.56:0.72;nmi:0.39:0.01;ari:0.40:0.01;f1:0.50:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 8.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.28:0.74;nmi:0.39:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.70:0.00;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.5, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 16.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:67.91:0.74;nmi:0.38:0.00;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.0625, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.10:0.78;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.00;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.125, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.17:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.25, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.29:0.76;nmi:0.39:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.5, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.43:0.75;nmi:0.39:0.01;ari:0.40:0.01;f1:0.50:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.66:0.72;nmi:0.39:0.01;ari:0.40:0.01;f1:0.50:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 2.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.76:0.73;nmi:0.39:0.00;ari:0.40:0.01;f1:0.51:0.00;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 4.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.68:0.71;nmi:0.39:0.00;ari:0.40:0.01;f1:0.51:0.01;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 8.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.40:0.75;nmi:0.39:0.01;ari:0.40:0.01;f1:0.51:0.01;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.7, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 16.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.11:0.76;nmi:0.39:0.00;ari:0.40:0.00;f1:0.50:0.00;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.0625, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.14:0.77;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.67:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.125, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.26:0.79;nmi:0.38:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.25, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.42:0.76;nmi:0.39:0.01;ari:0.39:0.01;f1:0.50:0.01;jcc:0.33:0.01;balri:0.69:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 0.5, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.69:0.73;nmi:0.39:0.01;ari:0.40:0.01;f1:0.50:0.01;jcc:0.34:0.01;balri:0.70:0.01;pur:0.68:0.01;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 1.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.97:0.69;nmi:0.39:0.01;ari:0.40:0.01;f1:0.51:0.01;jcc:0.34:0.01;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 2.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:69.15:0.77;nmi:0.40:0.01;ari:0.41:0.01;f1:0.51:0.01;jcc:0.35:0.01;balri:0.70:0.00;pur:0.69:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 4.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:69.11:0.74;nmi:0.40:0.00;ari:0.41:0.00;f1:0.52:0.00;jcc:0.35:0.00;balri:0.70:0.00;pur:0.69:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 8.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.96:0.69;nmi:0.40:0.00;ari:0.41:0.00;f1:0.51:0.00;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.00;
+coci_citeseer;tricl_n
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'w_d': 16.0, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
+acc:68.75:0.67;nmi:0.39:0.00;ari:0.40:0.00;f1:0.51:0.00;jcc:0.34:0.00;balri:0.70:0.00;pur:0.68:0.01;
