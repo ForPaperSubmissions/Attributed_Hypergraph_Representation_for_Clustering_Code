@@ -1,9 +1,0 @@
-coau_cora tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0001, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.9, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 1, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
-acc:80.38:0.92;nmi:0.44:0.02;ari:0.37:0.06;f1:0.48:0.05;jcc:0.32:0.04;balri:0.68:0.03;pur:0.64:0.03;
-coau_cora tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0001, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.9, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 1, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
-acc:80.38:0.92;nmi:0.45:0.02;ari:0.39:0.05;f1:0.50:0.04;jcc:0.33:0.04;balri:0.69:0.03;pur:0.66:0.03;
-coau_cora tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0001, 'weight_decay': 1e-05, 'drop_feature_rate': 0.3, 'drop_incidence_rate': 0.2, 'drop_dyadic_rate': 0.9, 'tau_n': 0.6, 'tau_g': 0.5, 'tau_m': 0.6, 'w_g': 0.5, 'w_m': 0.5, 'w_d': 1, 'epochs': 800, 'batch_size_1': None, 'batch_size_2': None}
-acc:80.38:0.92;nmi:0.46:0.02;ari:0.41:0.03;f1:0.51:0.03;jcc:0.34:0.03;balri:0.70:0.02;pur:0.65:0.02;

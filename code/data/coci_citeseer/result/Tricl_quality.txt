@@ -1,3 +1,0 @@
-coci_citeseer;tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 5e-05, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.4, 'tau_n': 1.0, 'tau_g': 1.0, 'tau_m': 0.8, 'w_g': 4, 'w_m': 2, 'epochs': 500, 'batch_size_1': None, 'batch_size_2': None}
-acc:68.29:0.90;nmi:0.37:0.01;ari:0.37:0.02;f1:0.48:0.01;jcc:0.32:0.01;balri:0.68:0.01;pur:0.66:0.01;

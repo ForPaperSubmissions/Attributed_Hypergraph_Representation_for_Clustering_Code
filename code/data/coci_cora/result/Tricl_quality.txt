@@ -1,3 +1,0 @@
-coci_cora;tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.4, 'tau_n': 0.5, 'tau_g': 0.5, 'tau_m': 1.0, 'w_g': 4, 'w_m': 1, 'epochs': 300, 'batch_size_1': None, 'batch_size_2': None}
-acc:75.89:0.91;nmi:0.42:0.02;ari:0.38:0.06;f1:0.49:0.05;jcc:0.32:0.04;balri:0.69:0.03;pur:0.65:0.03;
