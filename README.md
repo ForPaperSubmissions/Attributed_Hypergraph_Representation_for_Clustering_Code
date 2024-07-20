@@ -1,5 +1,7 @@
 <meta name="robots" content="noindex">
 
+Notes: The code for contrastive learning models and the detailed report will be uploaded soon.<br/>
+
 Code: code is available under the folder code/.<br/>
 Data: data is available under the folder code/data/.<br/>
 
