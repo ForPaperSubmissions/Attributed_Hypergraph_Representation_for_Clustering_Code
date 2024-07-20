@@ -34,4 +34,4 @@ Calculate the average running time of AHRC on dataset coau_cora.<br/>
 python AHRC.py --dataset coau_cora --timer True<br/>
 
 Output:<br/>
-The metric scores obtained would be saved in file output_time.txt under the folder code/.<br/>
+The running time would be saved in file output_time.txt under the folder code/.<br/>
