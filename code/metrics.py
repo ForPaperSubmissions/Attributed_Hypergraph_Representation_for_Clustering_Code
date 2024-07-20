@@ -1,39 +1,10 @@
 import numpy as np
 from sklearn import metrics
-import config
 
 class clustering_metrics():
     def __init__(self, true_label, predict_label):
         self.true_label = true_label
         self.pred_label = predict_label
-
-    def investigate(self):
-        num_groundTruth_cluster = len(np.unique(self.true_label))
-        num_pred_cluster = len(np.unique(self.pred_label))
-        num_node = len(self.true_label)
-
-        # create a linked list for each ground truth and discovered cluster
-        groundTruth_cluster_list = []
-        for i in range(num_groundTruth_cluster):
-            groundTruth_cluster_list.append([])
-
-        pred_cluster_list = []
-        for i in range(num_pred_cluster):
-            pred_cluster_list.append([])
-
-        for i in range(num_node):
-            groundTruth_cluster_list[self.true_label[i]].append(i)
-            pred_cluster_list[self.pred_label[i]].append(i)
-
-        adj = config.hg_adj.T
-        # for each hyperedge
-        for i in range(0):
-            # for each node
-            row = config.hg_adj[i].toarray()[0]
-            for j in range(len(row)):
-                if row[j] == 1:
-                    print(str(j) + "(" + str(adj[j].count_nonzero()) + ") " + str(self.true_label[j]) + " " + str(self.pred_label[j]))
-            print("")
 
     def binomialCoe(self, m):
         if m == 0 or m == 1:
@@ -188,28 +159,28 @@ class clustering_metrics():
 
         return purity
 
-    def evaluationClusterModelFromLabel(self, method):
+    def evaluationClusterModelFromLabel(self, method, prepath):
         
         save = True
 
         nmi = metrics.normalized_mutual_info_score(self.true_label, self.pred_label)
-        adjscore = metrics.adjusted_rand_score(self.true_label, self.pred_label)
+        # adjscore = metrics.adjusted_rand_score(self.true_label, self.pred_label)
         # acc, f1, pre, rc = self.clusteringAcc()
         num_pred_cluster, ri, f1, precision, recall, ari, jcc, balri = self.clusteringAcc_pairwise()
         purity = self.purity()
 
         # print
-        print("|c| ri nmi f1 precision adjscore recall ari jcc balri purity")
-        print(f"{num_pred_cluster}\t{ri:.5f}\t{nmi:.5f}\t{f1:.5f}\t{adjscore:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}")
+        print("cluster#\tnmi\tf1\tari\tjcc\tbalacc\tpurity")
+        print(f"{num_pred_cluster}\t{nmi:.5f}\t{f1:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}")
 
         # save results to a txt file
         if save:
             # write to a txt file
-            path = config.prepath + "/metrics/" + method + ".txt"
+            path = prepath + "/results/" + method + ".txt"
             f = open(path, "a")
             f.write(method + "\n")
-            f.write(f"{ri:.5f}\t{nmi:.5f}\t{f1:.5f}\t{adjscore:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}" + "\n")
+            f.write(f"{nmi:.5f}\t{f1:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}" + "\n")
             f.write("\n")
             f.close()
 
-        return f"{num_pred_cluster}\t{ri:.5f}\t{nmi:.5f}\t{f1:.5f}\t{adjscore:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}"
+        return f"{num_pred_cluster}\t{nmi:.5f}\t{f1:.5f}\t{ari:.5f}\t{jcc:.5f}\t{balri:.5f}\t{purity:.5f}"

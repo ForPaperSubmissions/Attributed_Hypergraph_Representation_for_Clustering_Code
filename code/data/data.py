@@ -4,31 +4,29 @@ import pickle
 import inspect
 
 sys.path.append('../')
-import config
+
+path_to_data = ""
 
 def load(dataset):
-
-    # remeber dataset
-    config.dataset = dataset
     
     # path to the dataset
     current = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-    config.prepath = os.path.join(current, dataset)
+    path_to_data = os.path.join(current, dataset)
 
-    isNPZ = os.path.exists(os.path.join(config.prepath, 'hypergraph.npz'))
+    isNPZ = os.path.exists(os.path.join(path_to_data, 'hypergraph.npz'))
 
     if isNPZ:
         data_dict = load_npz(dataset)
     else:
         ps = parser(dataset)
 
-        with open(os.path.join(config.prepath, 'hypergraph.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'hypergraph.pickle'), 'rb') as handle:
             hypergraph = pickle.load(handle)
 
-        with open(os.path.join(config.prepath, 'features.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'features.pickle'), 'rb') as handle:
             features = pickle.load(handle)
     
-        with open(os.path.join(config.prepath, 'labels.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'labels.pickle'), 'rb') as handle:
             labels = ps._1hot(pickle.load(handle))
 
         adj = sp.lil_matrix((len(hypergraph), features.shape[0]), dtype=np.int8)
@@ -37,23 +35,18 @@ def load(dataset):
             adj[index, hypergraph[edge]] = 1
         adj_sp = adj.tocsr()
 
-        print("# of keywords " + str(features.shape[1]) + " # of hyperedge " + str(len(hypergraph)) + " # of nodes " + str(features.shape[0]) + " average node degree " + f"{adj_sp.sum(0).mean():.1f}") 
+        # print("# of keywords " + str(features.shape[1]) + " # of hyperedge " + str(len(hypergraph)) + " # of nodes " + str(features.shape[0]) + " average node degree " + f"{adj_sp.sum(0).mean():.1f}") 
 
-        data_dict = {'hypergraph': hypergraph, 'features': features.todense(), 'features_sp':features, 'labels': labels, 'n': features.shape[0], 'e': len(hypergraph), 'name': dataset, 'adj': adj, 'adj_sp': adj_sp}
+        data_dict = {'hypergraph': hypergraph, 'features':features, 'labels': labels, 'name': dataset, 'adj': adj_sp}
     return data_dict
 
 def load_npz(dataset):
-    
-    # hg_adj = sp.load_npz(f'data/npz/{dataset}/hypergraph.npz')
-    # np.clip(hg_adj.data, 0, 1, out=hg_adj.data)
-    # features = sp.load_npz(f'data/npz/{dataset}/features.npz')
-    # labels = np.load(f'data/npz/{dataset}/labels.npy')
 
     # m*n matrix
-    hg_adj = sp.load_npz(os.path.join(config.prepath, 'hypergraph.npz'))
+    hg_adj = sp.load_npz(os.path.join(path_to_data, 'hypergraph.npz'))
     np.clip(hg_adj.data, 0, 1, out=hg_adj.data)
-    features = sp.load_npz(os.path.join(config.prepath, 'features.npz'))
-    labels = np.load(os.path.join(config.prepath, 'labels.npy'))
+    features = sp.load_npz(os.path.join(path_to_data, 'features.npz'))
+    labels = np.load(os.path.join(path_to_data, 'labels.npy'))
 
     for row in range(features.shape[0]):
         data_indices = features.indices[features.indptr[row]:features.indptr[row+1]]
@@ -70,7 +63,7 @@ def load_npz(dataset):
 
     print("# of keywords " + str(features.shape[1]) + " # of hyperedge " + str(hg_adj.shape[0]) + " # of nodes " + str(features.shape[0]) + " average node degree " + f"{hg_adj.sum(0).mean():.1f}")
 
-    return {'hypergraph': hypergraph, 'features': features.todense(), 'features_sp': features, 'labels': labels, 'n': features.shape[0], 'e': hg_adj.shape[0], 'name': dataset, 'adj': hg_adj, 'adj_sp': hg_adj}
+    return {'hypergraph': hypergraph, 'features': features, 'labels': labels, 'name': dataset, 'adj': hg_adj}
 
 class parser(object):
 
@@ -85,16 +78,16 @@ class parser(object):
 
     def _load_data(self):
         
-        with open(os.path.join(config.prepath, 'hypergraph.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'hypergraph.pickle'), 'rb') as handle:
             hypergraph = pickle.load(handle)
 
-        with open(os.path.join(config.prepath, 'features.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'features.pickle'), 'rb') as handle:
             features = pickle.load(handle).todense()
 
-        with open(os.path.join(config.prepath, 'labels.pickle'), 'rb') as handle:
+        with open(os.path.join(path_to_data, 'labels.pickle'), 'rb') as handle:
             labels = self._1hot(pickle.load(handle))
 
-        return {'hypergraph': hypergraph, 'features': features, 'labels': labels, 'n': features.shape[0]}
+        return {'hypergraph': hypergraph, 'features': features, 'labels': labels}
 
     def _1hot(self, labels):
         classes = set(labels)
