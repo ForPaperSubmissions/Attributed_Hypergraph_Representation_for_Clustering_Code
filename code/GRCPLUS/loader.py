@@ -1,10 +1,4 @@
 from dataset import (
-    CoraCocitationDataset,
-    CiteseerCocitationDataset,
-    PubmedCocitationDataset,   
-    CoraCoauthorshipDataset,
-    DBLPCoauthorshipDataset,
-    ZooDataset,
     NewsDataset,
     MushroomDataset,
     NTU2012Dataset,
@@ -25,19 +19,7 @@ class DatasetLoader(object):
         pass
 
     def load(self, dataset_name: str = 'cora'):
-        if dataset_name == 'cora':
-            return CoraCocitationDataset() 
-        elif dataset_name == 'citeseer':
-            return CiteseerCocitationDataset()
-        elif dataset_name == 'pubmed':
-            return PubmedCocitationDataset()
-        elif dataset_name == 'cora_coauthor':
-            return CoraCoauthorshipDataset()
-        elif dataset_name == 'dblp_coauthor':
-            return DBLPCoauthorshipDataset()
-        elif dataset_name == 'zoo':
-            return ZooDataset()
-        elif dataset_name == '20newsW100':
+        if dataset_name == '20newsW100':
             return NewsDataset()
         elif dataset_name == 'Mushroom':
             return MushroomDataset()
