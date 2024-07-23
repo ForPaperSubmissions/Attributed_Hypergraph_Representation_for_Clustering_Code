@@ -10,12 +10,12 @@ Requirements:<br/>
 Python 3.9.19<br/>
 Numpy 1.26.4<br/>
 Scipy 1.12.0<br/>
-Scikit-network 0.33.0<br/>
-Scikit-learn 1.5.1<br/>
+Scikit-network 0.32.1<br/>
+Scikit-learn 1.4.2<br/>
 Cython 3.0.10<br/>
 Psutil 6.0.0<br/>
 PyYAML 6.0.1<br/>
-Tqdm 4.66.4<br/>
+Tqdm 4.65.0<br/>
 PyTorch 1.11.0<br/>
 Torch-geometric 2.0.4<br/>
 Run python setup.py build_ext --inplace to setup module named 'spanning_tree'<br/>
