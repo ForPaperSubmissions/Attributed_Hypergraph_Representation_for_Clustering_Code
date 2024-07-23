@@ -87,7 +87,7 @@ class BaseDataset(object):
         incident = inc.tocsr()
 
         print(f'AHRC')
-        self.adjacency = utils.MAHC_reduction(incident, self.features, self.dataset_dir)
+        self.adjacency = utils.AHRC_reduction(incident, self.features, self.dataset_dir)
         print(f'# of nodes {self.features.shape[0]} {len(self.labels)} # of edges {self.adjacency.count_nonzero()}')
         row, col = self.adjacency.row, self.adjacency.col
         adjacency_matrix = []

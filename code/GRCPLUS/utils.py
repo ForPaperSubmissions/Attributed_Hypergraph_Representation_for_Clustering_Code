@@ -24,7 +24,7 @@ def clique_reduction(incident, n):
         e.extend(s)
     return e
 
-def MAHC_reduction(incident, features, prepath):
+def AHRC_reduction(incident, features, prepath):
     n = features.shape[0]
 
     dataset = prepath.split("/")[len(prepath.split("/")) - 1]

@@ -171,7 +171,7 @@ def clustering_eval():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('TCL+.')
-    parser.add_argument('--dataset', type=str, default='cora')
+    parser.add_argument('--dataset', type=str, default='coau_cora')
     parser.add_argument('--model_type', type=str, default='TCLPLUS')
     parser.add_argument('--num_seeds', type=int, default=5)
     parser.add_argument('--device', type=int, default=0)

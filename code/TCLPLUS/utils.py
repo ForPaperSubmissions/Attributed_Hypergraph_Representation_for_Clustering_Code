@@ -35,7 +35,7 @@ def drop_incidence(hyperedge_index: Tensor, p: float = 0.2, seed: int=0):
 
     return hyperedge_index
 
-def MAHC_reduction(incident, features, prepath):
+def AHRC_reduction(incident, features, prepath):
     n = features.shape[0]
 
     dataset = prepath.split("/")[len(prepath.split("/")) - 1]

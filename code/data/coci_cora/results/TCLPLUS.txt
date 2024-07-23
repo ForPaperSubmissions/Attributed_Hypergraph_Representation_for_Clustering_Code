@@ -1,0 +1,3 @@
+coci_cora;TCLPLUS
+{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'p_d': 0.9, 'tau_n': 0.5, 'w_s': 0.5, 'epochs': 300, 'batch_size_1': None, 'batch_size_2': None}
+acc:76.48:0.94;nmi:0.44:0.01;ari:0.32:0.03;f1:0.42:0.03;jcc:0.27:0.02;balri:0.64:0.02;pur:0.59:0.03;time:11.45830;

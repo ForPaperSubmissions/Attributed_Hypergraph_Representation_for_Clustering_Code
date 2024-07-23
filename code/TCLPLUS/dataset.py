@@ -5,7 +5,6 @@ import numpy as np
 import scipy.sparse as sp
 
 import torch
-# from torch_scatter import scatter_add
 from torch.utils.data import random_split
 
 import utils
@@ -37,27 +36,21 @@ class BaseDataset(object):
         else:
             with open(osp.join(self.dataset_dir, 'features.pickle'), 'rb') as f:
                 self.features = pickle.load(f)
-                # print(f'features {type(self.features)} {self.features.shape}')
             with open(osp.join(self.dataset_dir, 'hypergraph.pickle'), 'rb') as f:
                 self.hypergraph = pickle.load(f)
-                # print(f'hypergraph {type(self.hypergraph)} {len(self.hypergraph)}')
             with open(osp.join(self.dataset_dir, 'labels.pickle'), 'rb') as f:
                 self.labels = pickle.load(f)
-                # print(f'labels {type(self.labels)} {len(self.labels)}')
 
     def load_npz(self):
         self.features = sp.load_npz(os.path.join(self.dataset_dir, 'features.npz')).astype(np.float32)
-        # print(f'features {type(self.features)} {self.features.shape}')
 
         hg_adj = sp.load_npz(os.path.join(self.dataset_dir, 'hypergraph.npz'))
         np.clip(hg_adj.data, 0, 1, out = hg_adj.data)
         self.hypergraph = {}
         for index, edge in enumerate(hg_adj):
             self.hypergraph[index] = set(edge.indices)
-        # print(f'hypergraph {type(self.hypergraph)} {len(self.hypergraph)}')
         
         self.labels = np.load(os.path.join(self.dataset_dir, 'labels.npy')).tolist()
-        # print(f'labels {type(self.labels)} {len(self.labels)}')
 
     def load_splits(self, seed: int):
         with open(osp.join(self.split_dir, f'{seed}.pickle'), 'rb') as f:
@@ -92,33 +85,20 @@ class BaseDataset(object):
                 inc[edge_to_num[edge], node] = 1
                 incidence_matrix.append([node, edge_to_num[edge]])
         incident = inc.tocsr()
-        # print(f'maxNodeID {maxNodeID} {len(nodeset)}')
-        
-        # self.adjacency = utils.clique_reduction(incident, self.features.shape[0])
-        # print(f'# of nodes {self.features.shape[0]} # of edges {self.adjacency.count_nonzero()}')
 
-        # self.adjacency = utils.randomwalk_reduction(incident, self.features, self.dataset_dir)
-        # print(f'# of nodes {self.features.shape[0]} {len(self.labels)} # of edges {self.adjacency.count_nonzero()}')
-
-        self.adjacency = utils.MAHC_reduction(incident, self.features, self.dataset_dir)
+        print("AHRC")
+        self.adjacency = utils.AHRC_reduction(incident, self.features, self.dataset_dir)
         print(f'# of nodes {self.features.shape[0]} {len(self.labels)} # of edges {self.adjacency.count_nonzero()}')
 
         row, col, data = self.adjacency.row, self.adjacency.col, self.adjacency.data
-        # data = np.sort(data)
-        # print(f'min {np.min(data)} max {np.max(data)} mean {np.mean(data)}')
-        # cutoff = data[int(len(data) * 0.4)]
+
         adjacency_matrix = []
         for i in range(len(row)):
-            # if data[i] < cutoff:
-            #     continue
+
             adjacency_matrix.append([row[i], col[i]])
-        # adjacency_matrix = []
-        # for i in range(len(self.adjacency.nonzero()[0])):
-        #     adjacency_matrix.append([self.adjacency.nonzero()[0][i], self.adjacency.nonzero()[1][i]])
+
         self.dyadicedge_index = torch.LongTensor(adjacency_matrix).T.contiguous()
         self.num_dyadicedges = len(self.dyadicedge_index[0])
-        # print(f'dyadicedge_index {self.dyadicedge_index.shape} {self.dyadicedge_index}')
-        # print(f'num_dyadicedges {self.num_dyadicedges}')
 
         self.processed_hypergraph = processed_hypergraph
         self.features = torch.as_tensor(self.features.toarray())
@@ -128,25 +108,6 @@ class BaseDataset(object):
         self.num_hyperedges = int(self.hyperedge_index[1].max()) + 1
         self.edge_to_num = edge_to_num
         self.num_to_edge = num_to_edge
-
-        weight = torch.ones(self.num_hyperedges)
-        # Dn = scatter_add(weight[self.hyperedge_index[1]], self.hyperedge_index[0], dim=0, dim_size=self.num_nodes)
-        # De = scatter_add(torch.ones(self.hyperedge_index.shape[1]), self.hyperedge_index[1], dim=0, dim_size=self.num_hyperedges)
-        
-        # print(f'data loaded.')
-        # print('=============== Dataset Stats ===============')
-        # print(f'dataset type: {self.type}, dataset name: {self.name}')
-        # print(f'features size: [{self.features.shape[0]}, {self.features.shape[1]}]')
-        # print(f'num nodes: {self.num_nodes} {int(self.hyperedge_index[0].max()) + 1}')
-        # print(f'num hyperedges: {self.num_hyperedges} {len(self.hypergraph)}')
-        # print(f'num_dyadicedges {self.num_dyadicedges}')
-        # print(f'num connections: {self.hyperedge_index.shape[1]}')
-        # print(f'num classes: {int(self.labels.max()) + 1}')
-        # print(f'avg hyperedge size: {torch.mean(De).item():.2f}+-{torch.std(De).item():.2f}')
-        # print(f'avg hypernode degree: {torch.mean(Dn).item():.2f}+-{torch.std(Dn).item():.2f}')
-        # print(f'max node size: {Dn.max().item()}')
-        # print(f'max edge size: {De.max().item()}')
-        # print('=============================================')
 
         self.to(self.device)
 
@@ -188,22 +149,6 @@ class BaseDataset(object):
             train_mask[train_idx] = True
             val_mask[val_idx] = True
             test_mask[test_idx] = True
-
-            # dic = {}
-            # dic['train_mask'] = train_mask
-            # dic['val_mask'] = val_mask
-            # dic['test_mask'] = test_mask
-            # with open(osp.join(self.split_dir, f'{seed}.pickle'), 'rb') as f:
-            #     splits = pickle.load(f)
-            #     print(type(splits['train_mask']))
-            #     train_mask = torch.tensor(splits['train_mask'], dtype=torch.bool, device=self.device)
-            #     val_mask = torch.tensor(splits['val_mask'], dtype=torch.bool, device=self.device)
-            #     test_mask = torch.tensor(splits['test_mask'], dtype=torch.bool, device=self.device)
-
-            #     print(f'seed {seed}')
-            #     print(torch.all(dic['train_mask'].eq(train_mask)))
-            #     print(torch.all(dic['val_mask'].eq(val_mask)))
-            #     print(torch.all(dic['test_mask'].eq(test_mask)))
 
             overwrite = True
             if overwrite:
