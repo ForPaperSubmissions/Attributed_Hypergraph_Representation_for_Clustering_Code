@@ -9,15 +9,8 @@ from sklearn.cluster import KMeans
 import numpy as np
 
 ks = {
-  "coci_patent_C13": 6,
-  "coci_wiki": 10,
   "coau_cora": 8,
-  "coci_cora": 11,
-  "coci_citeseer": 8,
-  "20news": 27,
-  "coci_pubmed": 22,
-  "coau_dblp": 6,
-  "NTU2012": 15,
+  "coci_cora": 11
 }
 
 def masked_accuracy(logits: Tensor, labels: Tensor):

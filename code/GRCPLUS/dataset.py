@@ -5,7 +5,6 @@ import numpy as np
 import scipy.sparse as sp
 
 import torch
-from torch_scatter import scatter_add
 from torch.utils.data import random_split
 
 import utils
@@ -14,7 +13,7 @@ from pathlib import Path
 class BaseDataset(object):
     def __init__(self, type: str, name: str, device: str = 'cpu'):
         
-        path_parent = Path(__file__).parent.parent.parent
+        path_parent = Path(__file__).parent.parent
 
         self.type = type
         self.name = name
@@ -44,17 +43,14 @@ class BaseDataset(object):
 
     def load_npz(self):
         self.features = sp.load_npz(os.path.join(self.dataset_dir, 'features.npz')).astype(np.float32)
-        # print(f'features {type(self.features)} {self.features.shape}')
 
         hg_adj = sp.load_npz(os.path.join(self.dataset_dir, 'hypergraph.npz'))
         np.clip(hg_adj.data, 0, 1, out = hg_adj.data)
         self.hypergraph = {}
         for index, edge in enumerate(hg_adj):
             self.hypergraph[index] = list(edge.indices)
-        # print(f'hypergraph {type(self.hypergraph)} {len(self.hypergraph)}')
         
         self.labels = np.load(os.path.join(self.dataset_dir, 'labels.npy')).tolist()
-        # print(f'labels {type(self.labels)} {len(self.labels)}')
 
     def load_splits(self, seed: int):
         with open(osp.join(self.split_dir, f'{seed}.pickle'), 'rb') as f:
@@ -89,21 +85,8 @@ class BaseDataset(object):
                 inc[edge_to_num[edge], node] = 1
                 incidence_matrix.append([node, edge_to_num[edge]])
         incident = inc.tocsr()
-        # print(f'maxNodeID {maxNodeID} {len(nodeset)}')
-        
-        # print(f'clique reduction')
-        # adjacency_matrix = utils.clique_reduction(incident, self.features.shape[0])
-        # print(f'# of nodes {self.features.shape[0]} # of edges {len(adjacency_matrix)}')
 
-        # print(f'randomwalk_reduction')
-        # self.adjacency = utils.randomwalk_reduction(incident, self.features, self.dataset_dir)
-        # print(f'# of nodes {self.features.shape[0]} {len(self.labels)} # of edges {self.adjacency.count_nonzero()}')
-        # row, col, data = self.adjacency.row, self.adjacency.col, self.adjacency.data
-        # adjacency_matrix = []
-        # for i in range(len(row)):
-        #     adjacency_matrix.append([row[i], col[i]])
-
-        print(f'MAHC_reduction')
+        print(f'AHRC')
         self.adjacency = utils.MAHC_reduction(incident, self.features, self.dataset_dir)
         print(f'# of nodes {self.features.shape[0]} {len(self.labels)} # of edges {self.adjacency.count_nonzero()}')
         row, col = self.adjacency.row, self.adjacency.col
@@ -113,8 +96,6 @@ class BaseDataset(object):
         
         self.dyadicedge_index = torch.LongTensor(adjacency_matrix).T.contiguous()
         self.num_dyadicedges = len(self.dyadicedge_index[0])
-        # print(f'dyadicedge_index {self.dyadicedge_index.shape} {self.dyadicedge_index}')
-        # print(f'num_dyadicedges {self.num_dyadicedges}')
 
         self.processed_hypergraph = processed_hypergraph
         self.features = torch.as_tensor(self.features.toarray())
@@ -126,24 +107,7 @@ class BaseDataset(object):
         self.num_to_edge = num_to_edge
 
         weight = torch.ones(self.num_hyperedges)
-        Dn = scatter_add(weight[self.hyperedge_index[1]], self.hyperedge_index[0], dim=0, dim_size=self.num_nodes)
-        De = scatter_add(torch.ones(self.hyperedge_index.shape[1]), self.hyperedge_index[1], dim=0, dim_size=self.num_hyperedges)
         
-        # print(f'data loaded.')
-        # print('=============== Dataset Stats ===============')
-        # print(f'dataset type: {self.type}, dataset name: {self.name}')
-        # print(f'features size: [{self.features.shape[0]}, {self.features.shape[1]}]')
-        # print(f'num nodes: {self.num_nodes} {int(self.hyperedge_index[0].max()) + 1}')
-        # print(f'num hyperedges: {self.num_hyperedges} {len(self.hypergraph)}')
-        # print(f'num_dyadicedges {self.num_dyadicedges}')
-        # print(f'num connections: {self.hyperedge_index.shape[1]}')
-        # print(f'num classes: {int(self.labels.max()) + 1}')
-        # print(f'avg hyperedge size: {torch.mean(De).item():.2f}+-{torch.std(De).item():.2f}')
-        # print(f'avg hypernode degree: {torch.mean(Dn).item():.2f}+-{torch.std(Dn).item():.2f}')
-        # print(f'max node size: {Dn.max().item()}')
-        # print(f'max edge size: {De.max().item()}')
-        # print('=============================================')
-
         self.to(self.device)
 
     def to(self, device: str):
@@ -185,22 +149,6 @@ class BaseDataset(object):
             val_mask[val_idx] = True
             test_mask[test_idx] = True
 
-            # dic = {}
-            # dic['train_mask'] = train_mask
-            # dic['val_mask'] = val_mask
-            # dic['test_mask'] = test_mask
-            # with open(osp.join(self.split_dir, f'{seed}.pickle'), 'rb') as f:
-            #     splits = pickle.load(f)
-            #     print(type(splits['train_mask']))
-            #     train_mask = torch.tensor(splits['train_mask'], dtype=torch.bool, device=self.device)
-            #     val_mask = torch.tensor(splits['val_mask'], dtype=torch.bool, device=self.device)
-            #     test_mask = torch.tensor(splits['test_mask'], dtype=torch.bool, device=self.device)
-
-            #     print(f'seed {seed}')
-            #     print(torch.all(dic['train_mask'].eq(train_mask)))
-            #     print(torch.all(dic['val_mask'].eq(val_mask)))
-            #     print(torch.all(dic['test_mask'].eq(test_mask)))
-
             overwrite = True
             if overwrite:
                 dic = {}
@@ -212,36 +160,6 @@ class BaseDataset(object):
 
         return [train_mask, val_mask, test_mask]
 
-
-
-class CoraCocitationDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('cocitation', 'cora', **kwargs)
-
-
-class CiteseerCocitationDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('cocitation', 'citeseer', **kwargs)
-
-
-class PubmedCocitationDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('cocitation', 'pubmed', **kwargs)
-
-
-class CoraCoauthorshipDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('coauthorship', 'cora', **kwargs)
-
-
-class DBLPCoauthorshipDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('coauthorship', 'dblp', **kwargs)
-
-
-class ZooDataset(BaseDataset):
-    def __init__(self, **kwargs):
-        super().__init__('etc', 'zoo', **kwargs)
 
 
 class NewsDataset(BaseDataset):

@@ -1,6 +1,0 @@
-coci_cora;tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'drop_dyadic_rate': 0.9, 'tau_n': 0.5, 'tau_g': 0.5, 'tau_m': 1.0, 'w_g': 4, 'w_m': 1, 'w_d': 0.5, 'epochs': 300, 'batch_size_1': None, 'batch_size_2': None}
-acc:76.48:0.95;nmi:0.43:0.01;ari:0.30:0.03;f1:0.40:0.02;jcc:0.25:0.02;balri:0.63:0.01;pur:0.57:0.03;time:10.13311;
-coci_cora;tricl_n
-{'num_layers': 2, 'hid_dim': 512, 'proj_dim': 512, 'lr': 0.0005, 'weight_decay': 1e-05, 'drop_feature_rate': 0.4, 'drop_incidence_rate': 0.4, 'p_d': 0.9, 'tau_n': 0.5, 'tau_g': 0.5, 'tau_m': 1.0, 'w_d': 0.5, 'epochs': 300, 'batch_size_1': None, 'batch_size_2': None}
-acc:76.48:0.95;nmi:0.44:0.01;ari:0.30:0.03;f1:0.41:0.03;jcc:0.26:0.02;balri:0.63:0.01;pur:0.57:0.03;time:11.36819;

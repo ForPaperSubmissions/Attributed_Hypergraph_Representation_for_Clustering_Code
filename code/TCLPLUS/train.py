@@ -73,7 +73,7 @@ def print_measure(save, dataset_dir, dataset, model_type, params, accs, nmis, ar
     print(output)
 
     if save:
-        path = osp.join(dataset_dir, 'results', 'TCLPLUS_quality.txt')
+        path = osp.join(dataset_dir, 'results', 'TCLPLUS.txt')
 
         file = open(path, "a")
         file.write(output + "\n")

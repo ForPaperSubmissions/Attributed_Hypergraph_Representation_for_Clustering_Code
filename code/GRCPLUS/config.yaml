@@ -1,219 +1,25 @@
 coci_cora:
-  # seed: 39788
-  learning_rate: 0.001
+  lr: 0.001
   num_hidden: 128
   num_proj_hidden: 128
   activation: 'relu'
   base_model: 'GCNConv'
   num_layers: 2
-  # Clique
-  # drop_edge_rate_1: 0.2
-  # drop_edge_rate_2: 0.3
-  # Random
-  drop_edge_rate_1: 0.5
-  drop_edge_rate_2: 0.5
-  drop_feature_rate_1: 0.0
-  drop_feature_rate_2: 0.0
+  p_e: 0.5
+  p_a: 0.0
   tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-coci_citeseer:
-  # seed: 38108
-  learning_rate: 0.001
-  num_hidden: 256
-  num_proj_hidden: 256
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  # # Clique
-  # drop_edge_rate_1: 0.4
-  # drop_edge_rate_2: 0.4
-  # drop_feature_rate_1: 0.4
-  # drop_feature_rate_2: 0.4
-  # Random
-  drop_edge_rate_1: 0.3
-  drop_edge_rate_2: 0.3
-  drop_feature_rate_1: 0.1
-  drop_feature_rate_2: 0.1
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-coci_pubmed:
-  # seed: 23344
-  learning_rate: 0.005
-  num_hidden: 256
-  num_proj_hidden: 256
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  # Clique
-  # drop_edge_rate_1: 0.8
-  # drop_edge_rate_2: 0.8
-  # Random
-  drop_edge_rate_1: 0.9
-  drop_edge_rate_2: 0.9
-  drop_feature_rate_1: 0.0
-  drop_feature_rate_2: 0.0
-  tau: 0.7
   num_epochs: 200
   weight_decay: 0.00001
 
 coau_cora:
-  # seed: 39788
-  learning_rate: 0.001
+  lr: 0.001
   num_hidden: 128
   num_proj_hidden: 128
   activation: 'relu'
   base_model: 'GCNConv'
   num_layers: 2
-  # Clique
-  # drop_edge_rate_1: 0.4
-  # drop_edge_rate_2: 0.4
-  # drop_feature_rate_1: 0.4
-  # drop_feature_rate_2: 0.4
-  # Random
-  drop_edge_rate_1: 0.9
-  drop_edge_rate_2: 0.9
-  drop_feature_rate_1: 0.1
-  drop_feature_rate_2: 0.1
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-coau_dblp:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.2
-  drop_edge_rate_2: 0.4
-  drop_feature_rate_1: 0.3
-  drop_feature_rate_2: 0.4
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-20news:
-  # seed: 39788
-  learning_rate: 0.005
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.1
-  drop_edge_rate_2: 0.1
-  drop_feature_rate_1: 0.1
-  drop_feature_rate_2: 0.1
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-coci_patent_C13:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  # Clique
-  # drop_edge_rate_1: 0.2
-  # drop_edge_rate_2: 0.4
-  # Random
-  drop_edge_rate_1: 0.5
-  drop_edge_rate_2: 0.5
-  drop_feature_rate_1: 0.0
-  drop_feature_rate_2: 0.0
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-coci_wiki:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  # Clique
-  # drop_edge_rate_1: 0.0
-  # drop_edge_rate_2: 0.6
-  # Random
-  drop_edge_rate_1: 0.9
-  drop_edge_rate_2: 0.9
-  drop_feature_rate_1: 0.1
-  drop_feature_rate_2: 0.1
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-zoo:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.2
-  drop_edge_rate_2: 0.4
-  drop_feature_rate_1: 0.3
-  drop_feature_rate_2: 0.4
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-Mushroom:
-  # seed: 39788
-  learning_rate: 0.0005
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.1
-  drop_edge_rate_2: 0.1
-  drop_feature_rate_1: 0.8
-  drop_feature_rate_2: 0.8
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-NTU2012:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.9
-  drop_edge_rate_2: 0.9
-  drop_feature_rate_1: 0.0
-  drop_feature_rate_2: 0.0
-  tau: 0.4
-  num_epochs: 200
-  weight_decay: 0.00001
-
-ModelNet40:
-  # seed: 39788
-  learning_rate: 0.001
-  num_hidden: 128
-  num_proj_hidden: 128
-  activation: 'relu'
-  base_model: 'GCNConv'
-  num_layers: 2
-  drop_edge_rate_1: 0.2
-  drop_edge_rate_2: 0.4
-  drop_feature_rate_1: 0.3
-  drop_feature_rate_2: 0.4
+  p_e: 0.9
+  p_a: 0.1
   tau: 0.4
   num_epochs: 200
   weight_decay: 0.00001
