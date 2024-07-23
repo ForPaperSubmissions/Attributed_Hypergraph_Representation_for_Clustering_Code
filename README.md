@@ -16,9 +16,8 @@ Cython 3.0.10<br/>
 Psutil 6.0.0<br/>
 PyYAML 6.0.1<br/>
 Tqdm 4.66.4<br/>
-PyTorch 2.3.1
-Torch-geometric 2.5.2<br/>
-Torch-scatter 2.0.8<br/>
+PyTorch 1.11.0<br/>
+Torch-geometric 2.0.4<br/>
 Run python setup.py build_ext --inplace to setup module named 'spanning_tree'<br/>
 
 ----------------------------------------------
