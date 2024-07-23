@@ -17,7 +17,7 @@ Psutil 6.0.0<br/>
 PyYAML 6.0.1<br/>
 Tqdm 4.65.0<br/>
 PyTorch 1.11.0<br/>
-Torch-geometric 2.0.4<br/>
+Torch-geometric 2.5.3<br/>
 Run python setup.py build_ext --inplace to setup module named 'spanning_tree'<br/>
 
 ----------------------------------------------
