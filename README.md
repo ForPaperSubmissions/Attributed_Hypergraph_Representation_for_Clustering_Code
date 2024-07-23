@@ -41,6 +41,14 @@ Other hyperparameters are optional:<br/>
 --p_a: The probability of each attribute being removed.<br/>
 --lr: The learning rate.<br/>
 
+Run the method TCL+ by going the folder TCLPLUS/ then executing<br/>
+python train.py --dataset coau_cora<br/>
+The --dataset argument should be one of the available datasets.<br/>
+
+Other hyperparameters are optional:<br/>
+--p_d: The probability of each entry in ISM being set to zero.<br/>
+--lr: The learning rate.<br/>
+
 ----------------------------------------------
 Examples:<br/>
 
@@ -64,3 +72,10 @@ python train.py --dataset coau_cora<br/>
 
 Output:<br/>
 The metric scores obtained would be saved in file GRCPLUS.txt under the folder data/coau_cora/results/.<br/>
+
+Example-4:<br/>
+Evaluate the clustering results of TCL+ on dataset coau_cora<br/>
+python train.py --dataset coau_cora<br/>
+
+Output:<br/>
+The metric scores obtained would be saved in file TCLPLUS.txt under the folder data/coau_cora/results/.<br/>
