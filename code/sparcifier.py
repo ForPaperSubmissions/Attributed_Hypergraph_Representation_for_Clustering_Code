@@ -18,7 +18,6 @@ def printMatrix(A):
     print(result)
     
 def pack_tree_sum0(M, n, tau):
-
     residual = -directed2undirected(M)
     nonzero, = residual.diagonal().nonzero()
     residual[nonzero, nonzero] = 0

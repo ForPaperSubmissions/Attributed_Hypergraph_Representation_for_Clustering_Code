@@ -1,0 +1,30 @@
+
+coau_cora:
+  num_layers: 2
+  hid_dim: 512
+  proj_dim: 512
+  lr: 1.0e-04
+  weight_decay: 1.0e-05
+  drop_feature_rate: 0.3
+  drop_incidence_rate: 0.2
+  p_d: 0.5
+  tau_n: 0.6
+  w_s: 1.0
+  epochs: 800
+  batch_size_1: null
+  batch_size_2: null
+
+coci_cora:
+  num_layers: 2
+  hid_dim: 512
+  proj_dim: 512
+  lr: 5.0e-04
+  weight_decay: 1.0e-05
+  drop_feature_rate: 0.4
+  drop_incidence_rate: 0.4
+  p_d: 0.9
+  tau_n: 0.5
+  w_s: 0.5
+  epochs: 300
+  batch_size_1: null
+  batch_size_2: null
