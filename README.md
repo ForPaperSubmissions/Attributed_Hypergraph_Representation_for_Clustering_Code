@@ -7,7 +7,14 @@ Data: data is available under the folder code/data/.<br/>
 
 ----------------------------------------------
 Requirements:<br/>
-numpy, scipy, scikit-learn, scikit-network<br/>
+Python 3.9.19<br/>
+Numpy 1.24.4<br/>
+Scipy 1.13.1<br/>
+Scikit-network 0.33.0<br/>
+Scikit-learn 1.5.1<br/>
+Cython 3.0.10<br/>
+Psutil 6.0.0<br/>
+Run python setup.py build_ext --inplace to setup module named 'spanning_tree'<br/>
 
 ----------------------------------------------
 Usage:<br/>
