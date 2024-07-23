@@ -24,7 +24,7 @@ Run python setup.py build_ext --inplace to setup module named 'spanning_tree'<br
 Usage:<br/>
 Run the method AHRC by executing<br/>
 python AHRC.py --dataset coau_cora<br/>
-The --dataset argument should be one of the available datasets: [coau_cora,coci_cora].<br/>
+The --dataset argument should be one of the available datasets.<br/>
 
 Other parameters are optional:<br/>
 --alpha: The restart probability in the $\alpha, \gamma$-hypergraph random walk. Default value is 0.2.<br/>
@@ -34,7 +34,7 @@ Other parameters are optional:<br/>
 
 Run the method GRC+ by going the folder GRCPLUS/ then executing<br/>
 python train.py --dataset coau_cora<br/>
-The --dataset argument should be one of the available datasets: [coau_cora,coci_cora].<br/>
+The --dataset argument should be one of the available datasets.<br/>
 
 Other hyperparameters are optional:<br/>
 --p_e: The probability of each edge being removed.<br/>
