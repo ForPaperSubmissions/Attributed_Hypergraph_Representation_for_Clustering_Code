@@ -16,6 +16,7 @@ PyYAML 6.0.1<br/>
 Tqdm 4.65.0<br/>
 PyTorch 1.11.0<br/>
 Torch-geometric 2.5.3<br/>
+Python file setup.py is also provided to setup module 'spanning_tree'<br/>
 
 ----------------------------------------------
 Usage:<br/>
