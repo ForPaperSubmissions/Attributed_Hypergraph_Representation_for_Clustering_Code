@@ -5,7 +5,15 @@ Data: data is available under the folder code/data/.<br/>
 
 ----------------------------------------------
 Requirements:<br/>
-Python, Scikit-network, Numpy, Scipy, Scikit-learn, Psutil, PyYAML, PyTorch, Torch-geometric<br/>
+Python 3.9.19<br/>
+Scikit-network 0.32.1<br/>
+Numpy 1.26.4<br/>
+Scipy 1.12.0<br/>
+Scikit-learn 1.3.0<br/>
+Psutil 6.0.0<br/>
+PyYAML 6.0.1<br/>
+PyTorch 1.11.0<br/>
+Torch-geometric 2.5.3<br/>
 
 
 ----------------------------------------------
