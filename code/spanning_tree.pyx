@@ -30,83 +30,7 @@ ctypedef fused int32_or_int64_b:
 # NULL_IDX is the index used in predecessor matrices to store a non-path
 DEF NULL_IDX = -9999
 
-def external_argsort(path_input, path_output):
-
-    chunk_size = 100000000
-    length = 0
-
-    # Open the input file for reading
-    with open(path_input, 'r') as file:
-        chunk_idx = 0
-        len_chunk_global = 0
-        while True:
-            chunk = []
-            len_chunk = 0
-            while len_chunk < chunk_size:
-                line = file.readline()
-                if not line:
-                    break
-                chunk.append((float(line), len_chunk_global))
-                len_chunk += 1
-                len_chunk_global += 1
-                
-            if not chunk:
-                break
-
-            length += len_chunk
-
-            # Sort the chunk and store the indices
-            chunk.sort(key=lambda x: x[0])
-
-            # convert to numpy array
-            chunk_values = np.array([value for value, _ in chunk], dtype=DTYPE)
-            chunk_indices = np.array([index for _, index in chunk], dtype=ITYPE)
-
-            # Write the sorted indices to a temporary file
-            chunk_output_file_values = path_output + "/chunk_values_" + str(chunk_idx) + ".txt"
-            chunk_values.tofile(chunk_output_file_values, sep="\n")
-
-            chunk_output_file_indices = path_output + "/chunk_indices_" + str(chunk_idx) + ".txt"
-            chunk_indices.tofile(chunk_output_file_indices, sep="\n")
-            
-            chunk_idx += 1
-
-    # Merge the sorted indices from the chunks
-    # sorted_indices = []
-    sorted_indices = np.empty(length, dtype=ITYPE)
-    min_heap = []
-
-    # Open the first index from each chunk and push it into the heap
-    chunk_readers_values = []
-    chunk_readers_indices = []
-    for i in range(chunk_idx):
-        chunk_input_file_values = path_output + "/chunk_values_" + str(i) + ".txt"
-        chunk_input_file_indices = path_output + "/chunk_indices_" + str(i) + ".txt"
-        chunk_readers_values.append(open(chunk_input_file_values, 'r'))
-        chunk_readers_indices.append(open(chunk_input_file_indices, 'r'))
-
-        heapq.heappush(min_heap, (float(chunk_readers_values[i].readline()), int(chunk_readers_indices[i].readline()), i))
-
-    length = 0
-    while min_heap:
-        _, smallest_index, chunk_idx = heapq.heappop(min_heap)
-        # sorted_indices.append(smallest_index)
-        sorted_indices[length] = smallest_index
-        length += 1
-
-        next_value = chunk_readers_values[chunk_idx].readline()
-        next_index = chunk_readers_indices[chunk_idx].readline()
-        if next_index:
-            heapq.heappush(min_heap, (float(next_value), int(next_index), chunk_idx))
-        else:
-            chunk_readers_values[chunk_idx].close()
-            chunk_readers_indices[chunk_idx].close()
-
-    return sorted_indices
-    
-def spanning_tree2(csgraph, overwrite=False):
-
-    #start_tot = time.time()
+def spanning_tree(csgraph, overwrite=False):
 
     global NULL_IDX
     
@@ -115,27 +39,16 @@ def spanning_tree2(csgraph, overwrite=False):
     # Stable sort is a necessary but not sufficient operation
     # to get to a canonical representation of solutions.
 
-    #start = time.time()
-    #print(len(csgraph.data))
     i_sort = np.argsort(csgraph.data, kind='stable').astype(ITYPE)
-    #print(f'0 {(time.time() - start)}')
 
-    #start = time.time()
     rank = np.zeros(N, dtype=ITYPE)
     predecessors = np.arange(N, dtype=ITYPE)
     row_indices = np.zeros(len(csgraph.data), dtype=ITYPE)
-    #print(f'1 {(time.time() - start)}')
 
-    #start = time.time()
     _min_spanning_tree(csgraph.data, csgraph.indices, csgraph.indptr, i_sort,
                        row_indices, predecessors, rank)
-    #print(f'2 {(time.time() - start)}')
 
-    #start = time.time()
     csgraph.eliminate_zeros()
-    #print(f'3 {(time.time() - start)}')
-
-    #print(f'tot {(time.time() - start_tot)}')
 
 
 @cython.boundscheck(False)

@@ -1,0 +1,3 @@
+coci_cora;GRCPLUS
+{'lr': 0.001, 'num_hidden': 128, 'num_proj_hidden': 128, 'activation': 'relu', 'base_model': 'GCNConv', 'num_layers': 2, 'p_e': 0.5, 'p_a': 0.0, 'tau': 0.4, 'num_epochs': 200, 'weight_decay': 1e-05}
+acc:0.26:0.00;nmi:0.26:0.00;ari:0.18:0.00;f1:0.29:0.00;jcc:0.17:0.00;balri:0.58:0.00;pur:0.45:0.01;time:4.87140;

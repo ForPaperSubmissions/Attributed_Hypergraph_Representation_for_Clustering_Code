@@ -1,6 +1,6 @@
 import numpy as np
 from sknetwork.utils.format import directed2undirected
-from spanning_tree import spanning_tree2
+from spanning_tree import spanning_tree
 
 def check_symmetric(A, rtol=1e-08, atol=1e-08):
     AT = A.T
@@ -26,7 +26,7 @@ def pack_tree_sum0(M, n, tau):
     for _ in range(tau):
 
         tree = residual.copy()
-        spanning_tree2(tree)
+        spanning_tree(tree)
 
         residual = residual - (tree + tree.T)
 

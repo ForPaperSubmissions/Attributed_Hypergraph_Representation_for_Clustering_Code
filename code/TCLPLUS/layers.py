@@ -60,10 +60,6 @@ class ProposedConv(MessagePassing):
         self.reset_parameters()
     
     def reset_parameters(self):
-        # fix_seed(0)
-        # torch.nn.init.kaiming_uniform_(self.lin_n2e.weight)
-        # torch.nn.init.kaiming_uniform_(self.lin_e2n.weight)
-        # torch.nn.init.kaiming_uniform_(self.lin_n2n.weight)
 
         self.lin_n2e.reset_parameters()
         self.lin_e2n.reset_parameters()
