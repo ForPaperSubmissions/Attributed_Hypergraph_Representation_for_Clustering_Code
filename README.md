@@ -9,12 +9,11 @@ Python 3.9.19<br/>
 Scikit-network 0.32.1<br/>
 Numpy 1.26.4<br/>
 Scipy 1.12.0<br/>
-Scikit-learn 1.4.2<br/>
+Scikit-learn 1.3.0<br/>
 Psutil 6.0.0<br/>
 PyYAML 6.0.1<br/>
 PyTorch 1.11.0<br/>
 Torch-geometric 2.5.3<br/>
-
 
 
 ----------------------------------------------
@@ -73,11 +72,11 @@ Output:<br/>
 The running time would be saved in the file output_time.txt under the folder code/.<br/>
 
 Example-4:<br/>
-Evaluate the clustering results of GRC+ on dataset coau_cora<br/>
-python train.py --dataset coau_cora<br/>
+Evaluate the clustering results of GRC+ on dataset coci_cora<br/>
+python train.py --dataset coci_cora<br/>
 
 Output:<br/>
-The metric scores obtained would be saved in the file GRCPLUS.txt under the folder data/coau_cora/results/.<br/>
+The metric scores obtained would be saved in the file GRCPLUS.txt under the folder data/coci_cora/results/.<br/>
 
 Example-5:<br/>
 Evaluate the clustering results of TCL+ on dataset coau_cora<br/>
