@@ -12,7 +12,6 @@ Scikit-network 0.32.1<br/>
 Scikit-learn 1.4.2<br/>
 Psutil 6.0.0<br/>
 PyYAML 6.0.1<br/>
-Tqdm 4.65.0<br/>
 PyTorch 1.11.0<br/>
 Torch-geometric 2.5.3<br/>
 
