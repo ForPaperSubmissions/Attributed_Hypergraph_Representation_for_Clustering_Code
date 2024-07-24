@@ -1,7 +1,5 @@
 <meta name="robots" content="noindex">
 
-Notes: The detailed report will be uploaded soon.<br/>
-
 Code: code is available under the folder code/.<br/>
 Data: data is available under the folder code/data/.<br/>
 
@@ -27,12 +25,12 @@ python AHRC.py --dataset coau_cora<br/>
 The --dataset argument should be one of the available datasets.<br/>
 
 Other parameters are optional:<br/>
---alpha: The restart probability in the $\alpha, \gamma$-hypergraph random walk. Default value is 0.2.<br/>
---gamma: The maximum length of $\alpha, \gamma$-hypergraph random walk. Default value is 2.<br/>
---tau: The number of spanning forest sparsification iterations. Default value is 3.<br/>
---timer: A boolean variable. Set to True to calculate the average running time of the algorithm. Default value is False.<br/>
+--alpha: The restart probability in the $\alpha, \gamma$-hypergraph random walk. The default value is 0.2.<br/>
+--gamma: The maximum length of $\alpha, \gamma$-hypergraph random walk. The default value is 2.<br/>
+--tau: The number of spanning forest sparsification iterations. The default value is 3.<br/>
+--timer: A boolean variable. Set to True to calculate the average running time of the algorithm. The default value is False.<br/>
 
-Run the method GRC+ by going the folder GRCPLUS/ then executing<br/>
+Run the method GRC+ by going to the folder GRCPLUS/ then executing<br/>
 python train.py --dataset coau_cora<br/>
 The --dataset argument should be one of the available datasets.<br/>
 
@@ -41,7 +39,7 @@ Other hyperparameters are optional:<br/>
 --p_a: The probability of each attribute being removed.<br/>
 --lr: The learning rate.<br/>
 
-Run the method TCL+ by going the folder TCLPLUS/ then executing<br/>
+Run the method TCL+ by going to the folder TCLPLUS/ then executing<br/>
 python train.py --dataset coau_cora<br/>
 The --dataset argument should be one of the available datasets.<br/>
 
@@ -57,25 +55,25 @@ Evaluate the clustering results of AHRC on dataset coau_cora<br/>
 python AHRC.py --dataset coau_cora<br/>
 
 Output:<br/>
-The metric scores obtained would be saved in file output_metrics.txt under the folder code/.<br/>
+The metric scores obtained would be saved in the file output_metrics.txt under the folder code/.<br/>
 
 Example-2:<br/>
 Calculate the average running time of AHRC on dataset coau_cora.<br/>
 python AHRC.py --dataset coau_cora --timer True<br/>
 
 Output:<br/>
-The running time would be saved in file output_time.txt under the folder code/.<br/>
+The running time would be saved in the file output_time.txt under the folder code/.<br/>
 
 Example-3:<br/>
 Evaluate the clustering results of GRC+ on dataset coau_cora<br/>
 python train.py --dataset coau_cora<br/>
 
 Output:<br/>
-The metric scores obtained would be saved in file GRCPLUS.txt under the folder data/coau_cora/results/.<br/>
+The metric scores obtained would be saved in the file GRCPLUS.txt under the folder data/coau_cora/results/.<br/>
 
 Example-4:<br/>
 Evaluate the clustering results of TCL+ on dataset coau_cora<br/>
 python train.py --dataset coau_cora<br/>
 
 Output:<br/>
-The metric scores obtained would be saved in file TCLPLUS.txt under the folder data/coau_cora/results/.<br/>
+The metric scores obtained would be saved in the file TCLPLUS.txt under the folder data/coau_cora/results/.<br/>
